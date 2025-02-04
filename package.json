@@ -1,0 +1,16 @@
+{
+  "name": "@pardnchiu/deskui",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/github/repo-size/pardnchiu/markdown-editor?label=Size) ![](https://img.shields.io/github/license/pardnchiu/markdown-editor?label=License) ![](https://img.shields.io/badge/Creator-Pardn%20Chiu%20邱敬幃-A374BF)",
+  "main": "index.js",
+  "scripts": {
+    "minify": "npx terser src/js/*.js -c -m -o dist/DeskUI.js --config-file terser.config.json --name-cache terser.cache.json",
+    "minify-watch": "chokidar 'js/PaneDesk/*.js' -c 'npm run minify'",
+    "minify-index": "npx terser js/index.js -c -m -o js/index.min.js --config-file terser.config.json --name-cache terser.cache.json",
+    "sass": "sass sass/:css/ -w --style compressed --no-source-map"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}

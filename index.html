@@ -8,26 +8,30 @@
         <link rel="preconnect" href="https://cdn.jsdelivr.net">
         <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" as="style">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
-        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./dist/DeskUI.css">
 
         <!-- <link rel="preload" href="https://cdn.jsdelivr.net/gh/pardnchiu/PDExtension-js@1.0.1/js/PDExtension.min.js" as="script"> -->
         <script src="https://cdn.jsdelivr.net/gh/pardnchiu/PDRenderKit@1.0.0/dist/PDRenderKit.js" copyright="Pardn Ltd" defer></script>
 
-        <script type="module" src="./js/index.min.js"></script>
+        <!-- <link rel="preload" href="https://cdn.jsdelivr.net/npm/@pardnchiu/quickui@0.6.7/dist/QuickUI.js" as="script" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@pardnchiu/quickui@0.6.7/dist/QuickUI.js" defer crossorigin="anonymous"></script> -->
+
+        <script src="./dist/js/DeskUI.js"></script>
+        <script type="module" src="./static/js/index.js"></script>
     </head>
 
     <body id="page">
         <section class="pin">
-            <span>PaneDesk 一款純 HTML / JS 開發的視窗管理模組 | 邱敬幃 Pardn Chiu</span>
+            <span>DeskUI 一款純 HTML / JS 開發的視窗管理模組 | 邱敬幃 Pardn Chiu</span>
         </section>
         <section class="shortcut">
         </section>
         <section class="dock">
             <button @click="openFolder">
-                <img src="./image/folder.svg" alt="">
+                <img src="./dist/icons/folder.svg" alt="">
             </button>
             <button @click="openNode">
-                <img src="./image/note.svg" alt="">
+                <img src="./dist/icons/note.svg" alt="">
             </button>
             <button @click="openBroswer">
                 <img src="https://joball.tw/logo.png" alt="">
