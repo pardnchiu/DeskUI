@@ -1,4 +1,4 @@
-import { PDWindow, getFiles, openLink } from "../../src/DeskUI.js";
+import { PDWindow, getFiles, openLink } from "../../dist/DeskUI.js";
 
 const temp_folder = {
     pardnchiu: {
