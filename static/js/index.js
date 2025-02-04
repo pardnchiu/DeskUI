@@ -125,25 +125,25 @@ const temp_shortcut = {
             "聲明式語法擴展": {
                 type: "link",
                 icon: "https://opengraph.githubassets.com/1/pardnchiu/ExSwift",
-                href: "https://github.con/pardnchiu/ExSwift",
+                href: "https://github.com/pardnchiu/ExSwift",
                 taget: "_blank"
             },
             "Markdown 擴展": {
                 type: "link",
                 icon: "https://opengraph.githubassets.com/1/pardnchiu/MarkdownKit",
-                href: "https://github.con/pardnchiu/MarkdownKit",
+                href: "https://github.com/pardnchiu/MarkdownKit",
                 taget: "_blank"
             },
             "Pintrest 設計實現": {
                 type: "link",
                 icon: "https://opengraph.githubassets.com/1/pardnchiu/swift-UI-Reality",
-                href: "https://github.con/pardnchiu/swift-UI-Reality",
+                href: "https://github.com/pardnchiu/swift-UI-Reality",
                 taget: "_blank"
             },
             "鍵盤滑鼠點擊紀錄": {
                 type: "link",
                 icon: "https://opengraph.githubassets.com/1/pardnchiu/WorklyticsTracker",
-                href: "https://github.con/pardnchiu/WorklyticsTracker",
+                href: "https://github.com/pardnchiu/WorklyticsTracker",
                 taget: "_blank"
             },
             "（範例）記帳軟體": {
